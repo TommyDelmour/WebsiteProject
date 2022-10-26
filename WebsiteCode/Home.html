@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+    h1{
+        text-align: center;
+    }
+   li {
+
+      color:black
+      
+   }
+   p {
+    text-align: center;
+      color:black
+      
+   }
+   a {
+      color:black
+   }
+   
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #73a9cf;
+    color: white;
+    text-align: center;
+  }
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+</style>
+<body>
+  
+  <div class="footer">
+    <p>Tommy Delmour<br>
+      <a href="delmourt@kean.edu">delmourt@kean.edu</a>
+      <p>Date/Time: <span id="datetime"></span></p>
+
+<script>
+var dt = new Date();
+document.getElementById("datetime").innerHTML = dt.toLocaleString();
+</script>
+    </p>
+  </div>
+   <nav class="navbar navbar-light" style="background-color: #73a9cf;">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#" ><b>Website</b></a>
+        </div>
+        <ul class="nav navbar-nav">
+         
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="aboutme.html">About Me</a></li>
+          <li><a href="contactus.html">Contact Me</a></li>
+          <li><a href="exp.html">Experience</a></li>
+        </ul>
+      </div>
+    </nav>
+    <h1><b>HOME</h1></b>
+    <body style="background-color:lightblue;"></body>
+    <p>
+      Welcome to my website! On this website you will get to know a little more about me. you will be able to contact me if need be, you will learn things about me, <br>
+      and you will be able to see my resume, and see what jobs, and experiences I have had.
+      </p>
+      <p>
+         Below is a picture of what I look like. Now this is just the beginning of my website, so it is not going to look very good. <br> 
+         Hopefully as this semester goes on, I can make it look all nice and professional.
+         </p>
+      <img src="unnamed.png"  style="width:200px;height:200px;" class="center" >
+</body>
+</html>
